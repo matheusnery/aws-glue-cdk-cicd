@@ -21,7 +21,7 @@ else:
 with open(configFilePath, 'r', encoding="utf-8") as f:
     config = yaml.load(f, Loader=yaml.SafeLoader)
 
-env = core.Environment(region=config["awsAccount"]["awsRegion"])
+env = core.Environment(region=config["975050266405"]["us-east-1"])
 
 # Initiating the CodePipeline stack
 PipelineCDKStack(

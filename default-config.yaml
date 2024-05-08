@@ -79,4 +79,4 @@ codepipeline:
   glueStackName: 'cdk-covid19-glue-stack'
   repoName: 'cdk-covid19-glue-blog'
   repoBranch: 'master'
-  pipelineNotification: 'username@mail.com'
+  pipelineNotification: 'francisco-mico@hotmail.com'
